@@ -1,5 +1,5 @@
 //
-//  APVViewController.h
+//  CachedTableViewCell.h
 //  NSCacheSample
 //
 // Copyright 2011 by Michal Tuszynski
@@ -19,12 +19,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface APVViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
-    
-    IBOutlet UITableView *tableView;
-    
-}
+@interface CachedTableViewCell : UITableViewCell
 
-@property (assign) UITableView *tableView;
+-(void)downloadFile:(NSURL *)fileUrl forIndexPath:(NSIndexPath *)indexPath;
 
 @end

@@ -15,6 +15,9 @@
 		427F6B2B148E938F00FC170A /* APVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F6B2A148E938F00FC170A /* APVAppDelegate.m */; };
 		427F6B2E148E938F00FC170A /* APVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F6B2D148E938F00FC170A /* APVViewController.m */; };
 		427F6B31148E938F00FC170A /* APVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 427F6B2F148E938F00FC170A /* APVViewController.xib */; };
+		427F6B3C148E947800FC170A /* CachedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F6B3B148E947800FC170A /* CachedTableViewCell.m */; };
+		427F6B41148E95F000FC170A /* CacheController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F6B40148E95F000FC170A /* CacheController.m */; };
+		427F6B43148E9AE300FC170A /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 427F6B42148E9AE300FC170A /* README.markdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,20 @@
 		427F6B1A148E938E00FC170A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		427F6B1C148E938E00FC170A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		427F6B1E148E938E00FC170A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		427F6B22148E938E00FC170A /* NSCacheSample-Info.plist */ = {isa = PBXFileReference; path = "NSCacheSample-Info.plist"; sourceTree = "<group>"; };
+		427F6B22148E938E00FC170A /* NSCacheSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSCacheSample-Info.plist"; sourceTree = "<group>"; };
 		427F6B24148E938E00FC170A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		427F6B26148E938E00FC170A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		427F6B28148E938E00FC170A /* NSCacheSample-Prefix.pch */ = {isa = PBXFileReference; path = "NSCacheSample-Prefix.pch"; sourceTree = "<group>"; };
-		427F6B29148E938E00FC170A /* APVAppDelegate.h */ = {isa = PBXFileReference; path = APVAppDelegate.h; sourceTree = "<group>"; };
+		427F6B28148E938E00FC170A /* NSCacheSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSCacheSample-Prefix.pch"; sourceTree = "<group>"; };
+		427F6B29148E938E00FC170A /* APVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APVAppDelegate.h; sourceTree = "<group>"; };
 		427F6B2A148E938F00FC170A /* APVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APVAppDelegate.m; sourceTree = "<group>"; };
-		427F6B2C148E938F00FC170A /* APVViewController.h */ = {isa = PBXFileReference; path = APVViewController.h; sourceTree = "<group>"; };
+		427F6B2C148E938F00FC170A /* APVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APVViewController.h; sourceTree = "<group>"; };
 		427F6B2D148E938F00FC170A /* APVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APVViewController.m; sourceTree = "<group>"; };
 		427F6B30148E938F00FC170A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/APVViewController.xib; sourceTree = "<group>"; };
+		427F6B3A148E947800FC170A /* CachedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedTableViewCell.h; sourceTree = "<group>"; };
+		427F6B3B148E947800FC170A /* CachedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedTableViewCell.m; sourceTree = "<group>"; };
+		427F6B3F148E95F000FC170A /* CacheController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheController.h; sourceTree = "<group>"; };
+		427F6B40148E95F000FC170A /* CacheController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheController.m; sourceTree = "<group>"; };
+		427F6B42148E9AE300FC170A /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,7 @@
 		427F6B0B148E938E00FC170A = {
 			isa = PBXGroup;
 			children = (
+				427F6B42148E9AE300FC170A /* README.markdown */,
 				427F6B20148E938E00FC170A /* NSCacheSample */,
 				427F6B19148E938E00FC170A /* Frameworks */,
 				427F6B17148E938E00FC170A /* Products */,
@@ -77,11 +86,11 @@
 		427F6B20148E938E00FC170A /* NSCacheSample */ = {
 			isa = PBXGroup;
 			children = (
+				427F6B3E148E95D900FC170A /* CacheController */,
+				427F6B39148E946400FC170A /* UITableViewCells */,
+				427F6B37148E944900FC170A /* View Controllers */,
 				427F6B29148E938E00FC170A /* APVAppDelegate.h */,
 				427F6B2A148E938F00FC170A /* APVAppDelegate.m */,
-				427F6B2C148E938F00FC170A /* APVViewController.h */,
-				427F6B2D148E938F00FC170A /* APVViewController.m */,
-				427F6B2F148E938F00FC170A /* APVViewController.xib */,
 				427F6B21148E938E00FC170A /* Supporting Files */,
 			);
 			path = NSCacheSample;
@@ -96,6 +105,50 @@
 				427F6B28148E938E00FC170A /* NSCacheSample-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		427F6B37148E944900FC170A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				427F6B38148E945600FC170A /* APVViewController */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		427F6B38148E945600FC170A /* APVViewController */ = {
+			isa = PBXGroup;
+			children = (
+				427F6B2C148E938F00FC170A /* APVViewController.h */,
+				427F6B2D148E938F00FC170A /* APVViewController.m */,
+				427F6B2F148E938F00FC170A /* APVViewController.xib */,
+			);
+			name = APVViewController;
+			sourceTree = "<group>";
+		};
+		427F6B39148E946400FC170A /* UITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				427F6B3D148E947C00FC170A /* CachedTableViewCell */,
+			);
+			name = UITableViewCells;
+			sourceTree = "<group>";
+		};
+		427F6B3D148E947C00FC170A /* CachedTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				427F6B3A148E947800FC170A /* CachedTableViewCell.h */,
+				427F6B3B148E947800FC170A /* CachedTableViewCell.m */,
+			);
+			name = CachedTableViewCell;
+			sourceTree = "<group>";
+		};
+		427F6B3E148E95D900FC170A /* CacheController */ = {
+			isa = PBXGroup;
+			children = (
+				427F6B3F148E95F000FC170A /* CacheController.h */,
+				427F6B40148E95F000FC170A /* CacheController.m */,
+			);
+			name = CacheController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +203,7 @@
 			files = (
 				427F6B25148E938E00FC170A /* InfoPlist.strings in Resources */,
 				427F6B31148E938F00FC170A /* APVViewController.xib in Resources */,
+				427F6B43148E9AE300FC170A /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +217,8 @@
 				427F6B27148E938E00FC170A /* main.m in Sources */,
 				427F6B2B148E938F00FC170A /* APVAppDelegate.m in Sources */,
 				427F6B2E148E938F00FC170A /* APVViewController.m in Sources */,
+				427F6B3C148E947800FC170A /* CachedTableViewCell.m in Sources */,
+				427F6B41148E95F000FC170A /* CacheController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

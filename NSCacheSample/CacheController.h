@@ -1,5 +1,5 @@
 //
-//  APVViewController.h
+//  CacheController.h
 //  NSCacheSample
 //
 // Copyright 2011 by Michal Tuszynski
@@ -17,14 +17,19 @@
 // limitations under the License.
 
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface APVViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+@interface CacheController : NSObject {
     
-    IBOutlet UITableView *tableView;
-    
+    NSCache *cache;
 }
 
-@property (assign) UITableView *tableView;
+@property (retain, nonatomic) NSCache *cache;
+
++(CacheController *)sharedInstance;
++(void)destroySharedInstance;
+
+-(void)setCache:(id)obj forKey:(NSString *)key;
+-(id)getCacheForKey:(NSString *)key;
 
 @end
